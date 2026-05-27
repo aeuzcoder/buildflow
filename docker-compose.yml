@@ -35,7 +35,7 @@ services:
       ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-30}
       CORS_ORIGINS: ${CORS_ORIGINS}
     ports:
-      - "8000:8000"
+      - "8000:8080"
 
   frontend:
     build:
