@@ -20,7 +20,7 @@ import SitesList from "./pages/Sites/SitesList";
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <AuthProvider>
         <Routes>
           <Route element={<PublicLayout />}>
